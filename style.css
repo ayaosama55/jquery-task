@@ -71,7 +71,7 @@
     cursor: pointer;
 }
 .layout img {
-    width: 400px;
+    width: 40%;
     height:500px;
     margin-top: 5%;
 }
@@ -105,5 +105,8 @@
 @media(max-width: 767px) {
     .product {
         width:80%;
+    }
+    .layout img {
+        width:80%
     }
 }
