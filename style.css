@@ -9,11 +9,7 @@
     height:500px;
     box-shadow: 5px 5px 30px rgba(0, 0,0,0.1);
 }
-@media (max-width:768px) {
-    .product {
-        width:80%
-    }
-}
+
 .product .image {
     position: relative;
     overflow: hidden;
@@ -105,4 +101,9 @@
     text-align: center;
     cursor: pointer;
     padding: 10px
+}
+@media(max-width: 767px) {
+    .product {
+        width:80%;
+    }
 }
